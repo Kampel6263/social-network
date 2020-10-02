@@ -1,0 +1,83 @@
+.avatar {
+    width: 80px;
+}
+
+.selectedPage {
+    color: #000;
+
+    background-color: #8c0e0e;
+
+
+}
+
+.loadingContainer {
+
+    width: 100%;
+}
+
+.loading {
+    display: block;
+    width: 501px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    margin-top: 15px;
+}
+
+span {
+    cursor: pointer;
+    margin-left: 1px;
+    padding: 0 6px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+/*span:hover {*/
+/*    color: #000;*/
+
+/*    background-color: #8c0e0e;*/
+/*}*/
+
+.unfollow {
+    background-color: #0c0c0c;
+    color: #8c0e0e;
+    transition: .1s linear;
+}
+
+.unfollow:hover{
+    background-color: #000;
+}
+
+.follow {
+    background-color: #8c0e0e;
+    color: #000;
+    transition: .1s linear;
+}
+
+.follow:hover{
+    background-color: #b31111;
+}
+
+
+button{
+    border-style: none;
+    width: 80px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 1px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: .4;
+    background-color: white;
+    cursor: wait;
+}
+
+.descriptions{
+    margin-left: 30px;
+}

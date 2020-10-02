@@ -1,0 +1,13 @@
+.item a{
+  color: rgb(133, 133, 133);
+  text-decoration: none;
+  transition: .1s linear;
+}
+
+.item a:hover{
+  color: #8c0e0e;
+}
+
+.item a.active{
+  color: #8c0e0e;
+}

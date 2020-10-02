@@ -1,0 +1,36 @@
+.nav {
+    grid-area: n;
+    background-color: #111;
+    padding: 0px 0px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.item a {
+    color: #8c0e0e;
+    text-decoration: none;
+    transition: .2s linear;
+    /* background-color: mediumblue; */
+    text-align: center;
+    display: block;
+    padding: 36px 0px;
+    font-size: 23px;
+    /* font-family: 'Notable', sans-serif; */
+    font-family: 'Krona One', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.item a:hover {
+    background-color: #222;
+    /* color: #111; */
+}
+
+.item a.active {
+    background-color: #8c0e0e;
+    color: #111;;
+}

@@ -1,0 +1,8 @@
+.header{
+  grid-area: h;
+  background-color: #8c0e0e;
+  }
+
+.loginBlock{
+  color: #111111;
+}
